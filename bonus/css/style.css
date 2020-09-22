@@ -13,14 +13,20 @@ body{
   margin: auto;
 }
 
-header , main , footer{
+aside div , header , main , footer{
   margin-bottom: 10px;
-
 }
 
-aside , section , footer{
+aside div , section{
+  padding: 10px;
+}
+
+aside div , section , footer{
   background: white;
+  /* debug */
   border: 1px solid black;
+  /* fine debug */
+  border-radius: 10px;
 }
 
 .clearfix:after{
@@ -64,19 +70,26 @@ nav a {
 /* inizio parte principale */
 aside{
   float: left;
-  /* debug */
-  height: 100px;
+  width: 20%;
+}
+
+aside div{
+  /* debug
+  height: 200px;
   /* fine debug */
-  width: 24%;
+}
+
+main span{
+  font-size: 20px;
 }
 
 section{
   float: left;
-  /* debug */
+  /* debug
   height: 300px;
   /* fine debug */
   width: 50%;
-  margin: 0 1%;
+  margin: 0 5%;
 }
 
 /* footer */
