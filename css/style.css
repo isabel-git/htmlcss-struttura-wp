@@ -7,7 +7,7 @@ body{
   padding: 10px;
 }
 
-header , main{
+header , main, .rosa{
   margin-bottom: 10px;
 }
 
@@ -24,29 +24,31 @@ header{
   background: yellow;
 }
 
-/* regole del main */
-main{
-
-}
-
+/* inizio parte principale */
 aside{
   float: left;
-  /* debug */
-  height: 100px;
-  background: pink;
-  /* fine debug */
+
   width: 24%;
+}
+
+aside .rosa{
+  background: pink;
+}
+
+aside .grande{
+  height: 200px;
+}
+
+aside .piccolo{
+  height: 100px;
 }
 
 section{
   float: left;
-  /* debug */
-  height: 100px;
+  height: 300px;
   background: purple;
-  /* fine debug */
   width: 50%;
   margin: 0 1%;
-
 }
 
 footer{
