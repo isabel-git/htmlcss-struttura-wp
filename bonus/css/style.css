@@ -22,9 +22,9 @@ aside div , section{
   padding: 10px;
 }
 
-aside div , section , footer{
+aside > div , section , footer{
   background: white;
-  /* debug */
+  /* debug 
   border: 1px solid black;
   /* fine debug */
   border-radius: 10px;
@@ -40,7 +40,6 @@ aside div , section , footer{
 /* header */
 header{
   height: 400px;
-
 }
 
 header .img{
@@ -51,6 +50,14 @@ header .img{
   background-size: cover;
   background-position: bottom;
   border: 10px solid white;
+}
+
+header h1{
+color: white;
+font-size: 50px;
+text-align: center;
+margin: 0;
+line-height: 360px;
 }
 
 /* navigazione */
@@ -80,8 +87,9 @@ aside div{
   /* fine debug */
 }
 
-aside i{
+#cubo i{
   color: orange;
+  font-size: 30px;
 }
 
 main span{
