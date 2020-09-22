@@ -5,7 +5,9 @@
 }
 
 .clearfix:after{
-  
+  display: table;
+  content: "";
+  clear:both;
 }
 
 
@@ -17,15 +19,30 @@ header{
 
 /* regole del main */
 main{
-  /* debug */
-  height: 500px;
-  background: blue;
-  /* fine debug */
+
 }
 
 aside{
+  float: left;
   /* debug */
   height: 100px;
-  background: green;
+  background: pink;
+  /* fine debug */
+  width: 25%;
+}
+
+section{
+  float: left;
+  /* debug */
+  height: 100px;
+  background: purple;
+  /* fine debug */
+  width: 50%;
+}
+
+footer{
+  /* debug */
+  height: 100px;
+  background: lightblue;
   /* fine debug */
 }
