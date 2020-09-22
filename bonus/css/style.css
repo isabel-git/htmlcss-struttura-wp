@@ -1,0 +1,58 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 10px;
+  background-image: url(../img/legno.jpg);
+}
+
+header , main{
+  margin-bottom: 10px;
+}
+
+aside , section , footer{
+  background: white;
+  border: 1px solid black;
+}
+
+.clearfix:after{
+  display: table;
+  content: "";
+  clear:both;
+}
+
+
+/* header */
+header{
+  /* debug */
+  height: 200px;
+  background: yellow;
+  /* fine debug */
+}
+
+/* inizio parte principale */
+aside{
+  float: left;
+  /* debug */
+  height: 100px;
+  /* fine debug */
+  width: 24%;
+}
+
+section{
+  float: left;
+  /* debug */
+  height: 300px;
+  /* fine debug */
+  width: 50%;
+  margin: 0 1%;
+}
+
+/* footer */
+footer{
+  /* debug */
+  height: 100px;
+  /* fine debug */
+}
