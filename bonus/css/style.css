@@ -8,8 +8,14 @@ body{
   background-image: url(../img/legno.jpg);
 }
 
-header , main{
+#container{
+  width: 70%;
+  margin: auto;
+}
+
+header , main , footer{
   margin-bottom: 10px;
+
 }
 
 aside , section , footer{
