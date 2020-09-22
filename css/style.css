@@ -1,0 +1,31 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearfix:after{
+  
+}
+
+
+/* header */
+header{
+  height: 200px;
+  background: yellow;
+}
+
+/* regole del main */
+main{
+  /* debug */
+  height: 500px;
+  background: blue;
+  /* fine debug */
+}
+
+aside{
+  /* debug */
+  height: 100px;
+  background: green;
+  /* fine debug */
+}
