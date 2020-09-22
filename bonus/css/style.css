@@ -1,6 +1,7 @@
 /* regole generali */
 *{
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -79,8 +80,16 @@ aside div{
   /* fine debug */
 }
 
+aside i{
+  color: orange;
+}
+
 main span{
   font-size: 20px;
+}
+
+aside p.green{
+  color: green;
 }
 
 section{
@@ -94,7 +103,22 @@ section{
 
 /* footer */
 footer{
-  /* debug */
+  /* debug
   height: 100px;
   /* fine debug */
+  color:#A5A5A6
+}
+
+footer div{
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+#icone{
+  text-align: center;
+}
+
+#icone i{
+  font-size: 30px;
+  padding: 20px 100px;
 }
